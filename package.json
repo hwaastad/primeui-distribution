@@ -3,12 +3,10 @@
   "version": "v3.0.0",
   "description": "'PrimeUI is a collection of rich javascript widgets and web components based on jQuery UI API'",
   "main": "primeui-min.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/primefaces/primeui-distribution.git"
+    "url": "git+https://github.com/hwaastad/primeui-distribution.git"
   },
   "keywords": [
     "jquery-plugin",
@@ -32,7 +30,13 @@
     "dependencies": {
       "jquery": "github:components/jquery@^2.1.4",
       "jquery-ui": "github:components/jqueryui@^1.11.4",
-      "font-awesome": "npm:font-awesome@^4.5.0"
-    }
+      "font-awesome": "npm:font-awesome@^4.5.0",
+      "lodash": "npm:lodash@^3.10.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    },
   }
 }
