@@ -27,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/primefaces/primeui-distribution/issues"
   },
-  "homepage": "https://github.com/primefaces/primeui-distribution#readme"
+  "homepage": "https://github.com/primefaces/primeui-distribution#readme",
+  "jspm":{
+    "dependencies": {
+      "jquery": "github:components/jquery@^2.1.4",
+      "jquery-ui": "github:components/jqueryui@^1.11.4",
+      "font-awesome": "npm:font-awesome@^4.5.0"
+    }
+  }
 }
